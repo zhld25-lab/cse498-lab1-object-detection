@@ -28,9 +28,10 @@ Same 17 test images (captured with an external webcam) across all methods,
 | YOLOE, prompt set A | 3 / 17 | none | any text at inference |
 | YOLOE, prompt set B (conf=0.05) | 17 / 17 | none | any text at inference |
 
-Prompt set A used the class names above; set B used appearance-based
-descriptions (snack package, spice bottle, small white plastic case). Full
-analysis is in `report/Lab1_Report.pdf`.
+Both YOLOE runs used text prompts. Set A used the class names above; set B used
+appearance-based descriptions (snack package, spice bottle, small white plastic
+case). The visual-prompt mode (SAVPE) was not used. Full analysis is in
+`report/CSE498_Lab1_Object_Detection_7slides_revised.pptx`.
 
 ## Repository layout
 
@@ -57,7 +58,7 @@ analysis is in `report/Lab1_Report.pdf`.
     │   ├── yoloe_text_conf005/              prompt set A, conf=0.05
     │   └── yoloe_text_alt/                  prompt set B, conf=0.05
     ├── dataset/raw_train/                   47 training images
-    └── report/Lab1_Report.pdf
+    └── report/                              lab report (PowerPoint)
 
 ## Setup
 
